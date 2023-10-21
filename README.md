@@ -1,2 +1,2 @@
-# Project-1-Repo
-Portfolio First Project
+# First Project
+This my first project in my portfolio. This is for viewing purposes only.
