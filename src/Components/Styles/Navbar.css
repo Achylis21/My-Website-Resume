@@ -1,0 +1,15 @@
+#navbar{
+    padding-right: 100px;
+}
+.navbar{
+    background-color: #56DAEB;
+}
+#navLink{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.active ,#navLink:hover{
+    color: #d45548;
+}
