@@ -3,7 +3,7 @@ import blogLogo from './img/logo.png';
 function Navbar(){
     return (
         <header>
-            <h3><img src={ blogLogo } alt="logo" width={170} height={40}/></h3>
+            <h3><img src={ blogLogo } alt="logo" width={170} height={35}/></h3>
             <nav>
                 <ul>
                     <li><a href='#Home'>Home</a></li>
