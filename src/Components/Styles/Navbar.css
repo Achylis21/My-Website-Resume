@@ -1,15 +1,20 @@
+@import url(../fonts/fonts.css);
 #navbar{
     padding-right: 100px;
+    padding-top: 30px;
+}
+#logo{
+    margin-left: 40px;
 }
 .navbar{
-    background-color: #56DAEB;
+    background-color: #3C4AAE;
 }
 #navLink{
-    font-size: 1.2em;
-    font-weight: 400;
+    font-family: 'Moderne Sans';
+    margin: 0 5px;
     color: white;
     transition: 0.3s ease-in-out;
 }
 .active ,#navLink:hover{
-    color: #d45548;
+    color: #b3bbff;
 }
