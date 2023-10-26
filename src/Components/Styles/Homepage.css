@@ -14,6 +14,8 @@
 } 
 #sentence{
     color: white;
+    border: none;
+    background-color: transparent;
     font-family: 'Poiret One';
 }
 #sentence h1{
@@ -24,4 +26,20 @@
 #sentence.container{
     margin-left: 0;
     padding-left: 100px;
+}
+
+#sentence button{
+    font-family: 'Moderne Sans';
+    background-color: transparent;
+    padding: 5px 10px;
+    margin-right: 10px;
+    transition: 0.2s ease-in-out;
+}
+#sentence button:hover{
+    background-color: white;
+    color: #3C4AAE;
+}
+#sentence img{
+    border-radius: 10%;
+    margin-top: 20px
 }
