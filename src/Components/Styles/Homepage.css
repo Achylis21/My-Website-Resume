@@ -1,3 +1,10 @@
+/* Color Used
+
+Blue - #3C4AAE
+White
+Peach - #EEA47F
+*/
+
 #wavyImage{
     width: 100%;
     height: 83vh;
@@ -42,4 +49,35 @@
 #sentence img{
     border-radius: 10%;
     margin-top: 20px
+}
+
+/* Content */
+#aboutme{
+    font-family: 'Poiret One';
+    background:url(../svg/circle-scatter-haikei1.svg);
+    background-size: cover;
+    background-position: center;
+    padding: 0px 100px 50px;
+}
+.btn-outline-primary{
+    border-color: #3C4AAE;
+    color: #3C4AAE;
+    transition: 0.1s ease-in-out;
+}
+.btn-outline-primary:hover{
+    background-color: #3C4AAE;
+    border-color: #3C4AAE;
+}
+.card-header-primary{
+    background-color: #EEA47F;
+    border-radius:5px 5px 0 0;
+    padding: 20px 10px 10px 10px;
+    color: white;
+    font-family: 'Moderne Sans';
+}
+#Personal{
+    margin: 0;
+}
+#Personal{
+    background-color: #3C4AAE;
 }
