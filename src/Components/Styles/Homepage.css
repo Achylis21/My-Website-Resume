@@ -1,6 +1,8 @@
 /* Color Used
 
 Blue - #3C4AAE
+medium light blue - #5765C5
+lightblue - #B0AFE3
 White
 Peach - #EEA47F
 */
@@ -53,7 +55,7 @@ Peach - #EEA47F
 
 /* Content */
 #aboutme{
-    font-family: 'Poiret One';
+    font-family: 'Dosis';
     background:url(../svg/circle-scatter-haikei1.svg);
     background-size: cover;
     background-position: center;
@@ -73,11 +75,29 @@ Peach - #EEA47F
     border-radius:5px 5px 0 0;
     padding: 20px 10px 10px 10px;
     color: white;
-    font-family: 'Moderne Sans';
+    font-family: 'Fajala';
 }
 #Personal{
     margin: 0;
+    background-color: #5765C5;
+    font-family: 'Dosis';
 }
-#Personal{
-    background-color: #3C4AAE;
+#Personal .container{
+    color: white;
+    max-width: 1250px;
+    padding: 5vh;
+}
+#Personal h2{
+    font-family: 'Fajala';
+}
+#Personal .row{
+    margin-bottom: 10px;
+}
+#progBar{
+    background-color: #EEA47F;
+    color: black;
+}
+.progress{
+    font-family: 'Poinet One';
+    height: 50%;
 }

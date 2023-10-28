@@ -6,3 +6,19 @@
     font-family: 'Poiret One';
     src: url('./PoiretOne-Regular.ttf');
 }
+@font-face {
+    font-family: 'Raleway';
+    src: url('./Raleway-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Oswald';
+    src: url('./Oswald-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Dosis';
+    src: url('./Dosis-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Fajala';
+    src: url('./FjallaOne-Regular.ttf');
+}

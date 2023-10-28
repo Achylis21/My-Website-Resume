@@ -47,15 +47,45 @@ function Homepage() {
             </div>
             <div id='Personal'>
                 <div className='container'>
-                    <p>test</p>
-                    <p>test</p>
-                    <p>test</p>
-                    <p>test</p>
-                    <p>test</p>
-                    <p>test</p>
-                    <p>test</p>
-                    <p>test</p>
-                    <p>test</p>
+                    <h2>Technical Expertice - Web Development</h2>
+                    <br/>
+                    <div className='row'>
+                        <div className='col'>
+                            <h4>HTML</h4>
+                            <div className="progress">
+                            <   div id='progBar' className="progress-bar" role="progressbar" style={{ width: '100%' }}>100%</div>
+                            </div>
+                        </div>
+                        <div className='col'>
+                            <h4>CSS</h4>
+                            <div className="progress">
+                                <div id='progBar' className="progress-bar" role="progressbar" style={{ width: '100%' }}>100%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div className='col'>
+                            <h4>Bootstrap</h4>
+                            <div className="progress">
+                            <   div id='progBar' className="progress-bar" role="progressbar" style={{ width: '50%' }}>50%</div>
+                            </div>
+                        </div>
+                        <div className='col'>
+                            <h4>React</h4>
+                            <div className="progress">
+                                <div id='progBar' className="progress-bar" role="progressbar" style={{ width: '25%' }}>25%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div className='col'>
+                            <h4>NodeJS</h4>
+                            <div className="progress">
+                            <   div id='progBar' className="progress-bar" role="progressbar" style={{ width: '10%' }}>10%</div>
+                            </div>
+                        </div>
+                        <div className='col'/>
+                    </div>
                 </div>
             </div>
     </div>
