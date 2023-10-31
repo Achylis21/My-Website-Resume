@@ -1,12 +1,11 @@
-import blogLogo from './img/logo.png';
-import "./Styles/Navbar.css"
+import blogLogo from '../Utils/img/logo.png';
+import "./Styles/Navbar.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap';
 
 function Navbar(){
     return (
-        <header>
-            <nav className="navbar navbar-expand-lg px-5">
+            <nav className="navbar sticky-top navbar-expand-lg px-5 bg-*">
                 <div className="container-fluid" id='navbar'>
                     <span className="navbar-brand"><img src={ blogLogo } alt="logo" width={170} height={35} id='logo'/></span>
                     <div className="collapse navbar-collapse">
@@ -27,7 +26,6 @@ function Navbar(){
                     </div>
                 </div>
             </nav>
-        </header>
     );
 }
 

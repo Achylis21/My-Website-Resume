@@ -1,13 +1,10 @@
-@import url(../fonts/fonts.css);
+@import url(../../Utils/fonts/fonts.css);
 #navbar{
     padding-right: 100px;
     padding-top: 30px;
 }
 #logo{
     margin-left: 40px;
-}
-.navbar{
-    background-color: #3C4AAE;
 }
 #navLink{
     font-family: 'Moderne Sans';
