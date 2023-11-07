@@ -1,8 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap';
 import './Styles/Homepage.css';
-import { HomeContent, TechSkill } from './homeContent.jsx';
-import aboutme from '../Utils/svg/aboutme.svg'
+import pdfUrl from '../Utils/Resume.pdf';
+import *  as homeContent from './homeContent.jsx';
+import aboutme from '../Utils/svg/aboutme.svg';
 
 function Homepage() {
     const handleClick = (url) => {
@@ -13,6 +14,14 @@ function Homepage() {
             window.open('https://github.com/Achylis21', "_blank", "noreferrer");
         }
     }
+    const downloadResu = () => {
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        link.download = 'Resume.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
     return(
         <div id='Homepage'>
             <div id='wavyImage'>
@@ -43,17 +52,15 @@ function Homepage() {
                                 <h2 style={{ color:'#5765C5' }}>About me!</h2>
                             </div>
                             <div>
-                                <HomeContent />
-                                <button className='btn btn-outline-primary'>Download Resume</button>
+                                <homeContent.HomeContent />
+                                <button className='btn btn-outline-primary' onClick={() => {downloadResu()}}>Download Resume</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div id='expert'>
-                <div className='container-fluid'>
-                    <TechSkill />
-                </div>
+                <homeContent.TechSkill />
             </div>
     </div>
     );

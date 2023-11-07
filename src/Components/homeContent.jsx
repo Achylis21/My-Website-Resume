@@ -1,3 +1,5 @@
+import STemp from './skillsTemp.jsx';
+import './Styles/homeContent.css';
 const HomeContent = () => {
     return(
         <div className="About me">
@@ -11,26 +13,30 @@ const HomeContent = () => {
 }
 const TechSkill = () => {
     return(
-        <div>
-            <div className='row'>
+        <div className='container-fluid pd-0'>
+            <div className='row text-center mb-5'>
                 <h2>Technical Expertise</h2>
             </div>
-            <div className="row">
-                <div class="col-sm-6 mb-3 mb-sm-0">
-                    <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                    </div>
+            <div className="row mb-3 justify-content-center">
+                {/* Java */}
+                <div class="col-sm-2 px-0 mx-3">
+                    <STemp value={50} year={1} level={1} logo={0} title={0}/>
                 </div>
-                <div class="col-sm-6">
-                    <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                    </div>
+                {/* C# */}
+                <div class="col-sm-2 px-0 mx-3">
+                    <STemp value={50} year={2} level={1} logo={1} title={1}/>
+                </div>
+                {/* JavaScript */}
+                <div class="col-sm-2 px-0 mx-3">
+                    <STemp value={80} year={2} level={1} logo={2} title={2}/>
+                </div>
+                {/* HTML */}
+                <div class="col-sm-2 px-0 mx-3">
+                    <STemp value={100} year={2} level={2} logo={3} title={3}/>
+                </div>
+                {/* CSS */}
+                <div class="col-sm-2 px-0 mx-3">
+                    <STemp value={90} year={2} level={2} logo={4} title={4}/>
                 </div>
             </div>
         </div>
