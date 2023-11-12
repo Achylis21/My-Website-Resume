@@ -6,3 +6,6 @@
   background-color: red;
   border-radius: 50%;
 }
+.vertical-timeline {
+  padding: 0 !important;
+}

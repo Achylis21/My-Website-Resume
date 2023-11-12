@@ -89,9 +89,11 @@ Peach - #EEA47F
 #abtHeader{
     margin-bottom: 5vh;
 }
-
+#expert{
+    background: url(../../Utils/svg/skills-background.svg) no-repeat;
+    background-size: cover;
+}
 #expert .container-fluid{
-    background-color: #00164d;
     padding: 3em 5em;
 }
 #expert h2{

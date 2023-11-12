@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap';
 import './Styles/Homepage.css';
 import pdfUrl from '../Utils/Resume.pdf';
-import *  as homeContent from './homeContent.jsx';
+import * as homeContent from './homeContent.jsx';
 import aboutme from '../Utils/svg/aboutme.svg';
 
 function Homepage() {
@@ -61,6 +61,10 @@ function Homepage() {
             </div>
             <div id='expert'>
                 <homeContent.TechSkill />
+                <homeContent.DocSkills />
+            </div>
+            <div id='achieve'>
+                <homeContent.MyAchieve />
             </div>
     </div>
     );
