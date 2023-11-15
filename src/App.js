@@ -1,8 +1,9 @@
 import React from 'react';
 import Navbar from './Components/Navbar.jsx';
 import Homepage from './Components/Homepage.jsx';
+import Experience from './Components/Experience.jsx';
 import './App.css';
-
+import { Route, Routes } from 'react-router-dom';
 
 // MAKE A FOOTER FOR COPYRIGHT, SOME OF THE SVG (ICONS, IMAGE, ETC.) ARE FROM FREEPIK
 //SKILLS ICON 
@@ -11,7 +12,11 @@ function App() {
   return (
     <React.Fragment>
       <Navbar/>
-      <Homepage/>
+      <Routes>
+        <Route path='/' element={<Homepage/>}/>
+        <Route path='/Experience' element={<Experience/>}/>
+      </Routes>
+      
     </React.Fragment>
   );
 }
