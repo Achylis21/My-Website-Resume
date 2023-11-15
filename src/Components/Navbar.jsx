@@ -17,7 +17,7 @@ function Navbar(){
                     <span className="navbar-brand"><img src={ blogLogo } alt="logo" width={170} height={35} id='logo'/></span>
                     <div className="collapse navbar-collapse">
                         <ul className="navbar-nav ms-auto">
-                            <li className="nav-item"><Link id='navLink' className="nav-link" to='/' onClick={() => handleLinkClick('Y')}>Home</Link></li>
+                            <li className="nav-item"><Link id='navLink' className="nav-link" to='/' onClick={() => handleLinkClick('Y') }>Home</Link></li>
                             <li className="nav-item"><Link id='navLink' className="nav-link" to='/Experience' onClick={() => handleLinkClick('N')}>Experience</Link></li>
                             <li className="nav-item"><Link id='navLink' className="nav-link" to='#Certification'>Certification</Link></li>
                             <li class="nav-item dropdown"> 

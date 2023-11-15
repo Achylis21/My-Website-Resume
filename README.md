@@ -5,6 +5,7 @@ Copyright: All of the used sources for this project are free and can be seen fro
 
 Icons:
 Art and design icons in Flaticon -https://flaticon.com/free-icons
+Artist: Freepik
 Design Icons in Icons8 - https://icons8.com/icons
 
 Vectors:
