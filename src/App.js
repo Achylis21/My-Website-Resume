@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Components/Navbar.jsx';
 import Homepage from './Components/Homepage.jsx';
 import Experience from './Components/Experience.jsx';
+import Certifications from './Components/Certifications.jsx'
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 // MAKE A FOOTER FOR COPYRIGHT, SOME OF THE SVG (ICONS, IMAGE, ETC.) ARE FROM FREEPIK
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<React.Fragment><Homepage/></React.Fragment>}/>
         <Route path='/Experience' element={<React.Fragment><Experience/></React.Fragment>}/>
+        <Route path='/Certifications' element={<React.Fragment><Certifications/></React.Fragment>}/>
       </Routes>
     </React.Fragment>
   );

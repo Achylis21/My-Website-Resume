@@ -7,9 +7,6 @@ White
 Peach - #EEA47F
 */
 @import url(../../Utils/fonts/fonts.css);
-.pt-6{
-    padding-top: 6em !important;
-}
 #Homepage{
     position: absolute;
     top: 0;
@@ -25,10 +22,6 @@ Peach - #EEA47F
     padding-top: 15vh;
     margin: 0;
 }
-#wavyImg{
-    width: 100%;
-    height: auto;
-} 
 #sentence{
     color: white;
     border: none;
@@ -56,20 +49,6 @@ Peach - #EEA47F
     background-color: white;
     color: #00164d;
 }
-#circular{
-    background-color: white;
-    border-radius: 100%;
-    height: 320px;
-    width: 320px;
-    padding: 10px;
-}
-#profile{
-    background-image: url(../../Utils/img/Profile.jpg);
-    background-size: cover;
-    border-radius: 100%;
-    height: 300px;
-    width: 300px;
-}
 .btn-outline-primary{
     border-color: #5765C5;
     color: #5765C5;
@@ -81,7 +60,7 @@ Peach - #EEA47F
 }
 
 /* Content */
-#aboutme .container{
+.abtme-container{
     max-width: fit-content;
     margin: 5vh 10vh;
     text-align: justify;
@@ -92,12 +71,8 @@ Peach - #EEA47F
 #expert{
     background: url(../../Utils/svg/skills-background.svg) no-repeat;
     background-size: cover;
-}
-#expert .container-fluid{
-    padding: 3em 5em;
-}
-#expert h2{
     font-weight: bold;
     color: white;
     font-family: 'Fajala';
+    padding: 3em 5em;
 }

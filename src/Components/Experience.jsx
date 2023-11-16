@@ -2,7 +2,7 @@ import './Styles/Experience.css';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import image from '../Utils/svg/Experience-Vector1.svg';
-
+import Footer from './Footer.jsx';
 
 function allIcons(r){
     let svg = {};
@@ -101,6 +101,7 @@ function Experience(){
                     </VerticalTimeline>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

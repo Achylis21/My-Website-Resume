@@ -3,6 +3,9 @@
     padding-right: 100px;
     padding-top: 30px;
 }
+.navbar{
+    z-index: 100;
+}
 #logo{
     margin-left: 40px;
 }

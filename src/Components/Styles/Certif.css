@@ -1,0 +1,18 @@
+.custom-bg-certif{
+    background-image: url('../../Utils/svg/certif-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 25%;
+}
+.cont-row1-certif{
+    background-color: white;
+    color: #5765C5;
+    padding-bottom: 20px;
+}
+.custom-border{
+    border: 2px solid rgba(12,33,97);
+    border-radius: 5%;
+}
+.certif-property img{
+    padding: 1em;
+}

@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap';
 import './Styles/Homepage.css';
+import Footer from './Footer.jsx';
 import pdfUrl from '../Utils/Resume.pdf';
 import * as homeContent from './homeContent.jsx';
 import aboutme from '../Utils/svg/aboutme.svg';
@@ -42,7 +43,7 @@ function Homepage() {
                 </div>
             </div>
             <div id='aboutme'>
-                <div className='container'>
+                <div className='container abtme-container'>
                     <div className='row align-items-center'>
                         <div className='col'>
                             <img src={ aboutme } alt='From Freepik' width={500} height={500}/>
@@ -65,6 +66,9 @@ function Homepage() {
             </div>
             <div id='achieve'>
                 <homeContent.MyAchieve />
+            </div>
+            <div id='footer'>
+                <Footer/>
             </div>
     </div>
     );

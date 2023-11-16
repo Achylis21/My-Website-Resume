@@ -12,14 +12,14 @@ function Navbar(){
         setActiveLink(link);
     };
     return (
-            <nav className="navbar sticky-top navbar-expand-lg px-5" style={{ backgroundColor: activeLink === 'Y' ? 'transparent' : '#0c2161' }}>
+            <nav className="navbar navbar-expand-lg px-5" style={{ backgroundColor: activeLink === 'Y' ? 'transparent' : '#0c2161' }}>
                 <div className="container-fluid" id='navbar'>
                     <span className="navbar-brand"><img src={ blogLogo } alt="logo" width={170} height={35} id='logo'/></span>
                     <div className="collapse navbar-collapse">
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item"><Link id='navLink' className="nav-link" to='/' onClick={() => handleLinkClick('Y') }>Home</Link></li>
                             <li className="nav-item"><Link id='navLink' className="nav-link" to='/Experience' onClick={() => handleLinkClick('N')}>Experience</Link></li>
-                            <li className="nav-item"><Link id='navLink' className="nav-link" to='#Certification'>Certification</Link></li>
+                            <li className="nav-item"><Link id='navLink' className="nav-link" to='/Certifications' onClick={() => handleLinkClick('N')}>Certification</Link></li>
                             <li class="nav-item dropdown"> 
                             <a id='navLink' class="nav-link dropdown-toggle" href="#a" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 More...

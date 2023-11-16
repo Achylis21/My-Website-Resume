@@ -1,0 +1,23 @@
+.my-footer {
+    background-color: #0f1129;
+    max-width: 100%;
+}
+.custom-border-logo{
+    border-left: 1px solid white;
+    padding: 5em 1em;
+}
+.first-row{
+    padding: 5%;
+}
+.list-prop li{
+    background-color: transparent;
+    color: white;
+    font-family: 'Poiret One';
+    border: none;
+}
+.title-list{
+    color: grey !important;
+    border: none;
+    font-size: larger;
+    font-family: 'Moderne Sans' !important;
+}
